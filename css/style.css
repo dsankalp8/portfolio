@@ -1,0 +1,123 @@
+@import'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+body{
+    font-family: 'popins',sans-serif;
+}
+header{
+      background:var(--dark);
+      clip-path: polygon(0 0,100% 0, 100% 100% ,70% 87%  ,0 100%);
+    }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antilised;
+}
+.container{
+     max-width: 1152px;
+     padding:0 15px;
+     margin:0 auto;
+}
+header nav .left a{
+    color: val(--pure);
+    text-decoration: none;
+    margin: right 2rem;
+    text-transform:uppercase;
+    transition:all.3s;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+
+}
+header nav .left a:hover{
+color:val(--primary);
+}
+
+header nav {
+    padding:2rem o;
+}
+header nav .branding{
+    margin-right:3rem;
+}
+.hero{
+     padding: 0.5rem;
+}
+.hero .left img{
+width: 500px;
+margin-top: 1rem;
+margin-right: 3rem;
+margin-left: 2rem;
+
+}
+.hero .right{
+    color:var(--pure);
+
+}
+.hero .right h6{
+font-size: 2rem;
+color: var(--primary);
+margin-bottom: 0.5rem;
+margin-top: 3rem;
+}
+.hero .right h1{
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+    color: var(--primary);
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+section{
+    padding: 6rem;
+}
+section.About.about-me-img{
+ height: 450px;
+}
+section.About h1{
+ margin-bottom: 1rem;
+ margin-left: 2rem;
+ font-size: 1.6rem;
+ font-weight: 400;
+}
+section.About h1 span{
+    color:var(--primary);
+}
+section.About h3,p {
+ margin-left: 2rem;
+}
+section.About p{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+
+section.About p
+{
+font-family: 'lato', sans-serif;
+color:var(--ternary);
+line-height: 1.8;
+}
+section.About .social{
+    display: flex;
+    width: 3px;
+    height: 1 rem;
+
+}
+section.About .social a{
+background: var(--dark);
+display: flex;
+align-items: center;
+justify-content: center;
+width: 3px;
+height: 1 rem;
+}
